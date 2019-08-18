@@ -63,3 +63,12 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+
+# Under Public 
+public/node_modules
+public/dist
+public/yarn-error*
+public/./*.html
+public/yarn.lock
+public/package-lock.json
