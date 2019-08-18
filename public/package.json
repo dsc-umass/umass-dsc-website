@@ -1,7 +1,7 @@
 {
-  "name": "vibranium",
+  "name": "google-dsc",
   "version": "1.0.0",
-  "description": "Website for DSC SubSaharan Africa",
+  "description": "Website for DSC @ UMass Amherst",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelvinkamau/Vibranium.git"
+    "url": "git+https://github.com/"
   },
   "keywords": [
     "dsc",
@@ -19,9 +19,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kelvinkamau/Vibranium/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/kelvinkamau/Vibranium/#readme",
+  "homepage": "https://github.com/",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
