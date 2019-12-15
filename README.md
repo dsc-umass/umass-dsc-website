@@ -6,57 +6,37 @@ An open sourced Develepor Student Club Website Template created for DSC UMass. C
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* NodeJS
+* NPM
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
-Give the example
+cd public 
 ```
 
-And repeat
-
 ```
-until finished
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+npm run build
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
-Give an example
+npm run dev
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+If you are using firebase. You can either edit firebase.json but what is highly recommend is you initialize your own firebase repo and put repo code inside that project. You can initialize and deploy by:
+
 
 ## Built With
 
