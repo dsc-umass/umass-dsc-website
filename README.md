@@ -6,15 +6,12 @@ An open sourced Develepor Student Club Website Template created for DSC UMass. C
 
 ## Getting Started
 
-
 ### Prerequisites
 
 * NodeJS
 * NPM
 
 ### Installing
-
-
 
 ```
 cd public 
