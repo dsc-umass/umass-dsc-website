@@ -25,7 +25,7 @@ npm run dev
 
 ## Deployment
 
-If you are using firebase. You can either edit firebase.json but what is highly recommend is you initialize your own firebase repo and put repo code inside that project. You can initialize and deploy by:
+If you are using firebase, you initialize your own firebase repo and put repo code inside that project. You can initialize and deploy by:
 
 ```
 firebase init
