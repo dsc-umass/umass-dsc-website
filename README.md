@@ -15,18 +15,11 @@ An open sourced Develepor Student Club Website Template created for DSC UMass. C
 
 ```
 cd public 
-```
 
-```
 npm install
-```
 
-```
 npm run build
-```
 
-
-```
 npm run dev
 ```
 
