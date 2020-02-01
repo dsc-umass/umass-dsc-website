@@ -14,7 +14,7 @@ path:hover {
 div.tooltip {   
  	position: absolute;           
 	text-align: center;           
-	width: 60px;                  
+	width: 100px;                  
 	height: 28px;                 
 	padding: 2px;             
 	font: 12px sans-serif;        
@@ -71,7 +71,7 @@ var path = d3.geo.path()               // path generator that will convert GeoJS
 var color = d3.scale.linear()
 			  .range(["rgb(213,222,217)","rgb(69,173,168)","rgb(84,36,55)","rgb(217,91,67)"]);
 
-var legendText = ["Cities Where our Members have Interned or Worked"];
+var legendText = ["DSC Members as Interns!"];
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("body")
@@ -176,14 +176,17 @@ svg.selectAll("circle")
            .style("opacity", 0);   
     });
 });  
-        
+		
+console.log(color.domain())
+var testArr = color.domain().slice().reverse()
+
 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
 var legend = d3.select("body").append("svg")
       			.attr("class", "legend")
-     			.attr("width", 140)
+     			.attr("width", 300)
     			.attr("height", 200)
    				.selectAll("g")
-   				.data(color.domain().slice().reverse())
+   				.data([1])
    				.enter()
    				.append("g")
      			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
