@@ -1,4 +1,9 @@
-years,place,lat,lon
-2,Armonk,41.1083058,-73.7226564
-3,Seattle,47.6180021,-122.3538009
-6,Springfield,42.1021517,-72.5893343
+years,place,lat,lon, person
+2,IBM,41.1083058,-73.7226564, Hannan
+2, Unearth Technologies,47.6180021,-122.3538009, Adilesh
+2, MassMutual,42.1021517,-72.5893343, Ava
+2, Google, 37.426936, -122.085733, Emmie
+2, Pratt & Whitney, 41.750063, -72.635740, Robbie
+2, ISO New England, 42.186867, -72.637911, Cody
+2, MathWork, 42.301435, -71.376012, Cody
+2, RaizLabs, 42.357131, -71.057512, Lucas
