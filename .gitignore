@@ -67,7 +67,6 @@ node_modules/
 
 # Under Public 
 public/node_modules
-public/dist
 public/yarn-error*
 public/./*.html
 public/yarn.lock
