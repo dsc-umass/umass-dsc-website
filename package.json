@@ -1,24 +1,22 @@
 {
-    "name": "google-dsc-website",
-    "version": "1.0.0",
-    "description": "Website for DSC @ UMass Amherst",
-    "main": "public/gulpfile.js",
-    "scripts": {
-      "test": ""
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/"
-    },
-    "keywords": [
-      "dsc",
-      "unilag"
-    ],
-    "author": "DSC UMass",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/"
-    }
-    
+  "name": "google-dsc-website",
+  "version": "1.0.0",
+  "description": "Website for DSC @ UMass Amherst",
+  "main": "public/gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "keywords": [
+    "dsc",
+    "unilag"
+  ],
+  "author": "DSC UMass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
   }
-  
+}
